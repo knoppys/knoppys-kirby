@@ -8,7 +8,10 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <?= css('assets/css/index.css') ?>
+  <?php echo css(array(
+  'assets/css/index.css',
+  'assets/css/simple-grid.min.css',
+  )) ?>
 
 </head>
 <body>

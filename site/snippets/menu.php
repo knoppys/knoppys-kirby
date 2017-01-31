@@ -1,4 +1,5 @@
 <nav class="navigation column" role="navigation">
+<span class="menu-toggle">Menu</span>
   <ul class="menu">
     <?php foreach($pages->visible() as $item): ?>
     <li class="menu-item<?= r($item->isOpen(), ' is-active') ?>">
